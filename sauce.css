@@ -138,6 +138,7 @@ cite {
 }
 
 .oral {
+  contain: paint;
   margin: 0;
   font-size: 0;
   line-height: 0;
