@@ -33,11 +33,11 @@
 }
 
 :any-link {
+  font-weight: bold;
   padding-inline-start: 2px;
   padding-inline-end: 2px;
   text-decoration-style: wavy;
   text-decoration-skip: ink;
-  text-decoration-color: var(--dew-locus);
 }
 
 * {
@@ -58,9 +58,8 @@ body {
   justify-content: center;
 }
 
-q {
+cite {
   letter-spacing: 2px;
-  font-weight: 900;
 }
 
 .aurora {
