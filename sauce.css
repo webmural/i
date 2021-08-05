@@ -32,6 +32,11 @@
     -1cm -1cm 0 crimson;
 }
 
+.spice :active {
+  border-radius: 60%;
+  box-shadow: 0 0 0 1ex lime;
+}
+
 :any-link {
   font-weight: bold;
   padding-inline-start: 2px;
@@ -60,6 +65,13 @@ body {
 
 cite {
   letter-spacing: 2px;
+}
+
+menu {
+  display: block;
+  list-style: none;
+  font-size: calc(1ex + 5vmax);
+  overflow-wrap: anywhere;
 }
 
 .aurora {
@@ -125,15 +137,19 @@ cite {
   font-size: 8rem;
 }
 
+@media (max-width: 60em) {
+  .blurb {
+    font-size: calc(5rem/3);
+  }
+}
+
 @media (max-width: 30em) {
   .tee {
     transform: rotate(90deg);
   }
-}
 
-@media (max-width: 50em) {
   .blurb {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
