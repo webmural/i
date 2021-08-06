@@ -12,8 +12,8 @@
 
 @media (prefers-color-scheme: dark) {
   .dew-diy {
-    --dew-solar: purple;
-    --dew-lunar: skyblue;
+    --dew-solar: skyblue;
+    --dew-lunar: purple;
   }
 
   #mix:target {
